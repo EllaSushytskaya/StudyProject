@@ -4,16 +4,17 @@ package by.stormnet.EllaS.lesson5;
 public class chair {
     private int weight;
 
-    public chair (int weight){
-        this.weight=weight;
+    public chair(int weight) {
+        this.weight = weight;
     }
 
     public class legs {
-    public void stend() {
-        System.out.println("Nogka");
+        public void stend() {
+            System.out.println("Nogka");
+        }
+
     }
 
-}
     public class back {
         public void lean() {
             System.out.println("Spinka");
