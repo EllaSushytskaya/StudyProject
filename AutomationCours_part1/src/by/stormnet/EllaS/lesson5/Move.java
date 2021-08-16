@@ -1,27 +1,72 @@
 package by.stormnet.EllaS.lesson5;
+
+
 public class Move {
+    private int weight2;
+    public Move(int weight) {
 
-    public void auto() {
-        System.out.println("Врум-Врум");
+        this.weight2 = weight;
     }
 
-    public void bycicle() {
-        System.out.println("Шарк-Шарк");
+    public class Auto  {
+        public class exemple {
+            public void go() {
+                System.out.println("Врум-Врум");
+            }
+        }
     }
-    public void snail() {
-        System.out.println("Шлеп");
+    public class Bicycle  {
+        public class exemple {
+            public void go() {
+                System.out.println("Шарк-Шарк");
+            }
+        }
     }
-
+    public class Snail  {
+        public class exemple {
+            public void go() {
+                System.out.println("шлеп");
+            }
+        }
+    }
     public static void main(String[] args) {
-        Move go = new Move();
-        go.auto();
-        go.bycicle();
-        go.snail();
+        Move move = new Move(5);
+        Move.Auto auto = move.new Auto();
+        Move.Bicycle bicycle = move.new Bicycle();
+        Move.Snail snail = move.new Snail();
+
+
+        Auto.exemple.go();
+        Bicycle.exemple.go();
+        Snail.exemple.go();
+
+
+    }
+
+
 
 
 
     }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
