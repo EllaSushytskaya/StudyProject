@@ -1,0 +1,14 @@
+        -- Common --
+-- Remove non-project files from repository
+-- Why in each class we see weight ?
+-- Each task must be placed in each separate folder (Task_1, Task_2, Task_3)
+-- Use CTRL+ALT+L
+
+        -- Task 1 --
+-- Rename classes and other by java code convention
+-- Rewrite class by.stormnet.EllaS.lesson5.birds using object oriented programming principles
+-- Remove all main methods from classes in homework.
+
+
+        -- Task 3 --
+-- Task 3 was for using static classes. I have not see static classes. And Task 3 are not working
