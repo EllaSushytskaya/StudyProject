@@ -1,7 +1,7 @@
 package by.stormnet.EllaS.lesson5;
 
 
-public class Move {
+public class task3 {
     private int weight2;
     public Move(int weight) {
 
@@ -30,15 +30,15 @@ public class Move {
         }
     }
     public static void main(String[] args) {
-        Move move = new Move(5);
-        Move.Auto auto = move.new Auto();
-        Move.Bicycle bicycle = move.new Bicycle();
-        Move.Snail snail = move.new Snail();
-
+        task3 move = new task3(5);
+        task3.Auto auto = move.new Auto();
+        task3.Bicycle bicycle = move.new Bicycle();
+        task3.Snail snail = move.new Snail();
 
         Auto.exemple.go();
         Bicycle.exemple.go();
         Snail.exemple.go();
+
 
 
     }

@@ -1,10 +1,11 @@
 package by.stormnet.EllaS.lesson5;
 
 
-public class chair {
+public class task2 {
     private int weight;
 
     public chair(int weight) {
+
         this.weight = weight;
     }
 
@@ -30,10 +31,10 @@ public class chair {
     }
 
     public static void main(String[] args) {
-        chair Stul = new chair(5);
-        chair.legs Legs = Stul.new legs();
-        chair.back Back = Stul.new back();
-        chair.seat Seat = Stul.new seat();
+        task2 Stul = new task2(5);
+        task2.legs Legs = Stul.new legs();
+        task2.back Back = Stul.new back();
+        task2.seat Seat = Stul.new seat();
 
         Legs.stend();
         Back.lean();

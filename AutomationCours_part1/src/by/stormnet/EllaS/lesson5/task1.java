@@ -1,6 +1,6 @@
 package by.stormnet.EllaS.lesson5;
 
-public class birds {
+public class task1 {
 
     String type;
     double weigh;
@@ -21,7 +21,7 @@ public class birds {
     }
 
     public static void main(String[] args) {
-        birds Yas = new birds();
+        task1 Yas = new task1();
         Yas.type = "Yastreb";
         Yas.weigh = 5;
 
