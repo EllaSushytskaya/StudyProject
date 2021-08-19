@@ -10,13 +10,16 @@ public class task1 {
         this.type = "Undefined";
         this.weigh = 0;
     }
-    public double getSumweight(){
+
+    public double getSumweight() {
         return sumweight;
     }
-    public final String getType(){
+
+    public final String getType() {
         return type;
     }
-    public final double getWeigh(){
+
+    public final double getWeigh() {
         return weigh;
     }
 
@@ -27,12 +30,12 @@ public class task1 {
 
         System.out.println(Yas.type + " " + Yas.weigh);
 
-        birds Vor = new birds();
+        task1 Vor = new task1();
         Vor.type = "Vorobey";
         Vor.weigh = 0.3;
         System.out.println(Vor.type + " " + Vor.weigh);
 
-        birds Pin = new birds();
+        task1 Pin = new task1();
         Pin.type = "Pingvin";
         Pin.weigh = 15.7;
         System.out.println(Pin.type + " " + Pin.weigh);
