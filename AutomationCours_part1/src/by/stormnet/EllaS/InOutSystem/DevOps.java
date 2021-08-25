@@ -1,12 +1,12 @@
 package by.stormnet.EllaS.InOutSystem;
 
 public class DevOps extends Employee implements VIP {
-	public DevOps(String name, String last_name) {
-		super(name, last_name);
+	public DevOps(String Name, String LastName) {
+		super(Name, LastName);
 	}
 
 	@Override
-	public void VIPaccess() {
+	public void VIPAccess() {
 		System.out.println("Open door");
 	}
 

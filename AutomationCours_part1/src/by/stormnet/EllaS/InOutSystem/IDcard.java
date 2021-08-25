@@ -10,7 +10,6 @@ public class IDcard {
 
 	public static void main(String[] args) {
 		Employee.idCard.getIDcard();
-
 	}
 }
 

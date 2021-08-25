@@ -4,23 +4,17 @@ public class Jurnal {
 
 
 	public static String getEnter() {
-		boolean idcard;
+		boolean isHasidcard;
 		int[] quantityEmployee = new int[15];
 		for (int i = 0; i < quantityEmployee.length; i++) {
-			if (idcard=true){
+			if (isHasidcard = true) {
 				return "Employee find";
 			}
 		}
 		return "Employee come on the button";
 	}
 
-
-		public enum Status {
-			InOffice,
-			InOfficeWithoutCard,
-			OutOffice;
-		}
-	}
+}
 
 
 

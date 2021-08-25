@@ -1,12 +1,12 @@
 package by.stormnet.EllaS.InOutSystem;
 
 public class Director extends Manager implements VIP {
-	public Director(String name, String last_name) {
-		super(name, last_name);
+	public Director(String Name, String LastName) {
+		super(Name,LastName);
 	}
 
 	@Override
-	public void VIPaccess() {
+	public void VIPAccess() {
 		System.out.println("Open door");
 	}
 
