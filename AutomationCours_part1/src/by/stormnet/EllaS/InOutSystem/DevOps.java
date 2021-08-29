@@ -1,8 +1,8 @@
 package by.stormnet.EllaS.InOutSystem;
 
 public class DevOps extends Employee implements VIP {
-	public DevOps(String Name, String LastName) {
-		super(Name, LastName);
+	public DevOps(String Name, String LastName,String Job) {
+		super(Name, LastName,Job);
 	}
 
 	@Override

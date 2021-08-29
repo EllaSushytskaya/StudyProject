@@ -3,16 +3,15 @@ package by.stormnet.EllaS.InOutSystem;
 public abstract class Employee {
 	protected String Name = "";
 	protected String LastName = "";
+	protected String Job ="";
 
-	public Employee(String Name, String LastName) {
+	public Employee(String Name, String LastName, String Job) {
 		this.Name = Name;
 		this.LastName = LastName;
+		this.Job=Job;
 	}
 
-	static class idCard {
-		public static void getIDcard() {
-		}
-	}
+
 }
 
 
