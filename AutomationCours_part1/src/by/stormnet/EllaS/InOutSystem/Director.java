@@ -1,12 +1,17 @@
 package by.stormnet.EllaS.InOutSystem;
 
-public class Director extends Manager implements VIP {
+public class Director extends Manager implements VIP, LocatedInOffice, RegisterEmployee{
 	public Director(String Name, String LastName, String Job) {
 		super(Name,LastName,Job);
 	}
 
 	@Override
 	public void locatedInOffice() {
+
+	}
+
+	@Override
+	public void registerEmployee() {
 
 	}
 

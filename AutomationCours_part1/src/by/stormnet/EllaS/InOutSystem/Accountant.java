@@ -10,4 +10,9 @@ public class Accountant extends Manager {
 	public void locatedInOffice() {
 
 	}
+
+	@Override
+	public void registerEmployee() {
+
+	}
 }

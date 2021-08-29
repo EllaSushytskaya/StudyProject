@@ -7,7 +7,10 @@ public class DevOps extends Employee implements VIP{
 
 	@Override
 	public void locatedInOffice() {
+	}
 
+	@Override
+	public void registerEmployee() {
 	}
 
 	@Override

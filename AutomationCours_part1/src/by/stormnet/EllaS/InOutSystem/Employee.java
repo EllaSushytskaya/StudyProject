@@ -1,6 +1,6 @@
 package by.stormnet.EllaS.InOutSystem;
 
-public abstract class Employee implements LocatedInOffice{
+public abstract class Employee implements LocatedInOffice,RegisterEmployee{
 	protected String Name = "";
 	protected String LastName = "";
 	protected String Job = "";
@@ -10,8 +10,10 @@ public abstract class Employee implements LocatedInOffice{
 		this.LastName = LastName;
 		this.Job = Job;
 	}
-	public abstract void locatedInOffice();
 
+
+	public abstract void locatedInOffice();
+	public abstract void registerEmployee();
 
 
 }

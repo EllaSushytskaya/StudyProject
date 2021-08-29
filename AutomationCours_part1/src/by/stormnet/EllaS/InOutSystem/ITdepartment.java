@@ -9,4 +9,9 @@ public class ITdepartment extends Employee {
 	public void locatedInOffice() {
 
 	}
+
+	@Override
+	public void registerEmployee() {
+
+	}
 }

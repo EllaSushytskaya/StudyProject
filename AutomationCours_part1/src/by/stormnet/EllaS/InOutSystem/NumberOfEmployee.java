@@ -2,7 +2,7 @@ package by.stormnet.EllaS.InOutSystem;
 
 public class NumberOfEmployee {
 	int FactNumberOfEmployee = 15;
-	int MaxNumberOfEmployee = 16;
+	int MaxNumberOfEmployee = 15;
 
 	public void NumberOfEmployee(int FactNumberOfEmployee, int MaxNumberOfEmployee) {
 		this.FactNumberOfEmployee = FactNumberOfEmployee;
