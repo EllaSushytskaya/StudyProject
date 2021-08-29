@@ -6,6 +6,11 @@ public class Director extends Manager implements VIP {
 	}
 
 	@Override
+	public void locatedInOffice() {
+
+	}
+
+	@Override
 	public void VIPAccess() {
 		System.out.println("Open door");
 	}

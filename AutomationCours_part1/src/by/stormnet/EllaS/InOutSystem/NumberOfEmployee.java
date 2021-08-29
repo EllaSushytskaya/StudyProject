@@ -2,7 +2,7 @@ package by.stormnet.EllaS.InOutSystem;
 
 public class NumberOfEmployee {
 	int FactNumberOfEmployee = 15;
-	int MaxNumberOfEmployee = 14;
+	int MaxNumberOfEmployee = 16;
 
 	public void NumberOfEmployee(int FactNumberOfEmployee, int MaxNumberOfEmployee) {
 		this.FactNumberOfEmployee = FactNumberOfEmployee;
@@ -11,9 +11,10 @@ public class NumberOfEmployee {
 
 	public void Compare() throws ExceededNumberOfEmployee {
 		if (FactNumberOfEmployee > MaxNumberOfEmployee) {
-			throw new ExceededNumberOfEmployee("Превышено максимальное колличесвто сотрудников. Максимальное количество сотрудников:"+MaxNumberOfEmployee);
+			throw new ExceededNumberOfEmployee("Превышено максимальное колличесвто сотрудников. Максимальное количество сотрудников:" + MaxNumberOfEmployee);
 		}
 	}
 
 
-}
+
+	}

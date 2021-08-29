@@ -5,4 +5,9 @@ public class Accountant extends Manager {
 		super(Name, LastName, Job);
 
 	}
+
+	@Override
+	public void locatedInOffice() {
+
+	}
 }
