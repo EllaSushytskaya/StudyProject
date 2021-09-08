@@ -5,6 +5,7 @@ public abstract class Employee implements LocatedInOffice,RegisterEmployee{
 	protected String Name = "";
 	protected String LastName = "";
 	protected String Job = "";
+	// TODO: 9/8/2021 Where IdCard field for employee? [Pavel.Chachotkin]
 
 	public Employee(String Name, String LastName, String Job) {
 		this.Name = Name;
