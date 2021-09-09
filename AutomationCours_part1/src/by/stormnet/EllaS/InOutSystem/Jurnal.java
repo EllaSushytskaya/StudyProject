@@ -1,18 +1,21 @@
 package by.stormnet.EllaS.InOutSystem;
 
-// TODO: 9/1/2021 As rule in Generic classes we should use 'T' instead 'Register' as name for generic type [Pavel.Chachotkin]
-public class Jurnal <Register extends Employee & RegisterEmployee> {
-	private Register[] EmployeeRegister;
 
-	public Jurnal(Register[] EmployeeRegister) {
-		this.EmployeeRegister = EmployeeRegister;
-	}
+import by.stormnet.EllaS.InOutSystem.TypesEmployee.DevOps;
 
-	public void infoAboutNumberOfEmployee() {
-		for (Register EmployeeInOffice : EmployeeRegister) {
-			EmployeeInOffice.locatedInOffice();
-		}
-	}
+public class Jurnal {
+//	Jurnal officeEmployee = new Jurnal();
+
+
+
+//	public void enterToOffice(){
+//	}
+//	public void forceOffice() {
+//	}
+
+
+
+
 }
 
 

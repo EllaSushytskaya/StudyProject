@@ -1,5 +1,6 @@
 package by.stormnet.EllaS.Lesson10;
 
+
 public class SplitTextOnSentence {
 	public static void main(String[] args) {
 		String string = "Hello word. Hello Java.";
