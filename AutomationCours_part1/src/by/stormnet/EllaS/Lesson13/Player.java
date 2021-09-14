@@ -1,21 +1,19 @@
 package by.stormnet.EllaS.Lesson13;
 
 public class Player extends Thread {
-		PlayingField playingField;
-		String name;
+	PlayingField playingField;
 
 
-		public Player(PlayingField playingField, String name) {
-			this.playingField = playingField;
-			this.name = name;
-		}
+	public Player(PlayingField playingField) {
+		this.playingField = playingField;
+	}
 
-		public void run() {
-			for (int i = 0; i < 10; i++) {
-				playingField.get();
-			}
+	public void run() {
+		for (int i = 0; i < 10; i++) {
+			playingField.get();
 		}
 	}
+}
 
 
 

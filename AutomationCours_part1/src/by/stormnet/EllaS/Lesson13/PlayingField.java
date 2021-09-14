@@ -7,21 +7,20 @@ public class PlayingField {
 	synchronized void put() {
 		while (card > 10) {
 			try {
-				Thread.sleep(100);
+				wait(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
 		card--;
 		System.out.println("Скинули 1 карту");
-		System.out.println("Игрок "+name);
 		System.out.println("Карт осталось: " + card);
 		notify();
 	}
 	synchronized void get() {
 		while (card >= 10) {
 			try {
-				wait();
+				wait(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
