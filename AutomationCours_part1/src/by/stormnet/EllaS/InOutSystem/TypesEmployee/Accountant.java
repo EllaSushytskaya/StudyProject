@@ -11,7 +11,7 @@ public class Accountant extends Manager {
 	}
 }
 
-
+// TODO: 9/14/2021 Delete redundant code [Pavel.Chachotkin]
 //	public void registerAccount(){
 //		Accountant [] accountant = new Accountant[5];
 //		for (int i = 0; i < accountant.length; i++) {

@@ -10,7 +10,7 @@ public class IDcard {
 		this.idCard = idCard;
 	}
 
-
+	// FIXME: 9/14/2021 This method only print idCard number and don't set it to field
 	public static void generateIDcard() {
 		int[] idCardNumber = new int[10];
 		for (int i = 0; i < idCardNumber.length; i++) {
@@ -18,7 +18,6 @@ public class IDcard {
 		}
 		String generalIDCard = Arrays.toString(idCardNumber);
 		System.out.println(generalIDCard);
-
 	}
 
 
