@@ -1,8 +1,5 @@
 package by.stormnet.EllaS.inOutSystem;
 
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Random;
 import java.util.UUID;
 
 public class IDcard {

@@ -1,28 +1,18 @@
 package by.stormnet.EllaS.inOutSystem;
 
-public abstract class Employee  {
+public abstract class Employee {
 
-	protected String name = "";
-	protected String lastName = "";
+	protected final String name;
+	protected final String lastName;
 	protected Status status;
 	protected IDcard idCard;
-
-
 
 
 	public Employee(String name, String lastName) {
 		this.name = name;
 		this.lastName = lastName;
-		this.status = Status.Out_Office;
+		this.status = Status.OUT_OF_OFFICE;
 
-	}
-
-	public void setStatus(Status status) {
-		this.status = status;
-	}
-
-	public void setIdCard(IDcard idCard) {
-		this.idCard = idCard;
 	}
 
 	public String getName() {
@@ -37,8 +27,16 @@ public abstract class Employee  {
 		return status;
 	}
 
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+
 	public IDcard getIdCard() {
 		return idCard;
+	}
+
+	public void setIdCard(IDcard idCard) {
+		this.idCard = idCard;
 	}
 }
 

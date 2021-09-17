@@ -4,12 +4,8 @@ import by.stormnet.EllaS.inOutSystem.Employee;
 import by.stormnet.EllaS.inOutSystem.VIP;
 
 public class DevOps extends Employee implements VIP {
-	public DevOps(String name, String lastName, int idCard, String status) {
-		super(name, lastName, idCard, status);
-	}
-
-	@Override
-	public void locatedInOffice() {
+	public DevOps(String name, String lastName) {
+		super(name, lastName);
 	}
 
 
