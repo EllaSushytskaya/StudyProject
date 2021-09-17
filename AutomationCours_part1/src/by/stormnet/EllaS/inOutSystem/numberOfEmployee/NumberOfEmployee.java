@@ -1,7 +1,7 @@
-package by.stormnet.EllaS.InOutSystem.NumberOfEmployee;
+package by.stormnet.EllaS.inOutSystem.numberOfEmployee;
 
 public class NumberOfEmployee {
-	int FactNumberOfEmployee = 19; // TODO: 9/1/2021 From the start you always have 15 employees ? [Pavel.Chachotkin]
+	int FactNumberOfEmployee = 14; // TODO: 9/1/2021 From the start you always have 15 employees ? [Pavel.Chachotkin]
 	int MaxNumberOfEmployee = 15;
 
 	public void NumberOfEmployee(int FactNumberOfEmployee, int MaxNumberOfEmployee) {

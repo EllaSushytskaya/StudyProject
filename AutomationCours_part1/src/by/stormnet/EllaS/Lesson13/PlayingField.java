@@ -13,8 +13,9 @@ public class PlayingField {
 			}
 		}
 		card--;
-		System.out.println("Скинули 1 карту");
+		System.out.println("Скинул 1 карту");
 		System.out.println("Карт осталось: " + card);
+		System.out.println();
 		notify();
 	}
 	synchronized void get() {
@@ -28,6 +29,7 @@ public class PlayingField {
 		card++;
 		System.out.println("Ведущий забрал 1 карту");
 		System.out.println("Карт стало: " + card);
+		System.out.println();
 		notify();
 	}
 

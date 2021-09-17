@@ -1,4 +1,4 @@
-package by.stormnet.EllaS.InOutSystem;
+package by.stormnet.EllaS.inOutSystem;
 
 public interface VIP {
 	void VIPAccess();

@@ -1,4 +1,4 @@
-package by.stormnet.EllaS.InOutSystem;
+package by.stormnet.EllaS.inOutSystem;
 
 // TODO: 9/1/2021 Rename constants by UPPER_SNAKE_CASE (Java code convention!) [Pavel.Chachotkin]
 public enum Status {

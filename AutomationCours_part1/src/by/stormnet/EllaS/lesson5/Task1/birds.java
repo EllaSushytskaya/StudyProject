@@ -11,17 +11,14 @@ public class Birds {
 	}
 
 	public double getSumweight() {
-
 		return sumweight;
 	}
 
 	public final String getType() {
-
 		return type;
 	}
 
 	public final double getWeigh() {
-
 		return weigh;
 	}
 

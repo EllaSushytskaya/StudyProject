@@ -13,6 +13,7 @@ public class Moderator extends Thread {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Имя игрока: "+name);
 			playingField.put();
+
 		}
 	}
 }
