@@ -7,12 +7,12 @@ public class Journal<Employee> {
 	List<Employee> employees = new ArrayList<Employee>();
 
 
-	void registerSomeWorkers(Employee[] stuff) {
-		for (int i = 0; i < stuff.length; i++) {
+	void registerSomeWorkers(Employee[] employees) {
+		for (int i = 0; i < employees.length; i++) {
 		}
 	}
 
-	void registerWorker(Employee stuff) {
+	void registerWorker(Employee employee) {
 
 	}
 
