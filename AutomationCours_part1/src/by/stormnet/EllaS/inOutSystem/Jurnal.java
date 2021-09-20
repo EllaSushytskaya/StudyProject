@@ -5,7 +5,7 @@ import java.util.List;
 
 
 public class Jurnal {
-	List <Employee> employeeList=new ArrayList<>();
+
 
 
 
