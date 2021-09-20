@@ -1,5 +1,10 @@
 package by.stormnet.EllaS.inOutSystem;
 
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
 public abstract class Employee {
 
 	protected final String name;
@@ -14,6 +19,7 @@ public abstract class Employee {
 		this.status = Status.OUT_OF_OFFICE;
 
 	}
+
 
 	public String getName() {
 		return name;
@@ -38,7 +44,25 @@ public abstract class Employee {
 	public void setIdCard(IDcard idCard) {
 		this.idCard = idCard;
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee employee = (Employee) obj;
+		if (name == employee.name)
+			return true;
+		if (lastName == employee.lastName)
+			return true;
+		return true;
+	}
 }
+
+
 
 
 

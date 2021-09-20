@@ -1,25 +1,24 @@
 package by.stormnet.EllaS.inOutSystem;
 
+import java.util.ArrayList;
 import java.util.List;
 
+
 public class Jurnal {
+	List <Employee> employeeList=new ArrayList<>();
 
 
-	public void ver() {
+
+
+
+
 	}
 
 
-	public void registerEmployee() {
-	}
-
-	public void enterToOffice() {
-	}
-
-	public void exitToOffice() {
-	}
 
 
-}
+
+
 
 
 
