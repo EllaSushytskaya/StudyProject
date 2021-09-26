@@ -1,4 +1,4 @@
-package by.stormnet.EllaS.Lesson13;
+package by.stormnet.EllaS.lesson13;
 
 public class Player extends Thread {
 	PlayingField playingField;

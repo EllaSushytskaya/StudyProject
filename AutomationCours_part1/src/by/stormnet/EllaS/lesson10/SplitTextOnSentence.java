@@ -1,4 +1,4 @@
-package by.stormnet.EllaS.Lesson10;
+package by.stormnet.EllaS.lesson10;
 
 
 public class SplitTextOnSentence {

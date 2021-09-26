@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Optional;
 
-public class task2 {
+public class Task2 {
 	public static void main(String[] args) {
 		ArrayList<String> word = new ArrayList<>();
 		Collections.addAll(word, "voin", "lavor", "voron", "beg", "vory");

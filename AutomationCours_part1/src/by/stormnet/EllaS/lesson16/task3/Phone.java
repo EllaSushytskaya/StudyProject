@@ -1,10 +1,10 @@
 package by.stormnet.EllaS.lesson16.task3;
 
-public class phone {
+public class Phone {
 	private String name;
 	private int price;
 
-	public phone(String name, int price) {
+	public Phone(String name, int price) {
 		this.name = name;
 		this.price = price;
 	}
@@ -32,5 +32,8 @@ public class phone {
 				", price=" + price +
 				'}';
 	}
+
+
+
 }
 

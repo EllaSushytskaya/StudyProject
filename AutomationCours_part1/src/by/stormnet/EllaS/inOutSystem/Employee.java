@@ -49,8 +49,8 @@ public abstract class Employee {
 	public boolean equals(Object obj) {
 		Employee employee = (Employee) obj;
 		if (name == employee.name||lastName == employee.lastName)
-			return true;
-		return false;
+			return Status.IN_OFFICE.equals(hashCode());
+		return Status.OUT_OF_OFFICE.equals(hashCode());
 	}
 }
 

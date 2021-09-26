@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-public class task1 {
+public class Task1 {
 	public static void main(String[] args) {
 		ArrayList<String> word = new ArrayList<>();
 		Collections.addAll(word, "served", "seriously", "sold", "sever", "service", "robotics");
