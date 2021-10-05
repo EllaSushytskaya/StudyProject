@@ -10,8 +10,7 @@ public class AssistentDirector extends Manager implements VIP {
 
 
 	@Override
-	public void VIPAccess() {
-		System.out.println("Open door");
+	public void pressOnKnob() {
 	}
 }
 
