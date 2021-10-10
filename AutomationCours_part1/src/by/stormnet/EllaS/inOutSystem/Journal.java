@@ -1,43 +1,57 @@
 package by.stormnet.EllaS.inOutSystem;
 
-import java.io.Serializable;
+
 import java.util.ArrayList;
 
-public class Journal implements Serializable {
-	private ArrayList<Employee> list;
-	private int countSize;
-	private int factEmployee;
+public class Journal {
+	private ArrayList<Employee> listOfEmployee;
+	private int maxNumberOfPlace;
+	private int factNumberEmployee;
 
-	public Journal(int countSize) {
-		this.countSize = countSize;
-		list = new ArrayList<>(countSize);
+	public Journal(int maxNumberOfPlace) {
+		this.maxNumberOfPlace = maxNumberOfPlace;
+		listOfEmployee = new ArrayList<>(maxNumberOfPlace);
 	}
+
 	public int getFactEmployee() {
-		return factEmployee;
+		return factNumberEmployee;
 	}
 
 	public void addEmployee(Employee employee) {
-		this.list.add(employee);
+		this.listOfEmployee.add(employee);
 	}
 
-	public void NumberOfEmployee(int countSize, int factEmployee) {
-		this.factEmployee = factEmployee;
-		this.countSize = countSize;
+	public void NumberOfEmployee(int maxNumberOfPlace, int factNumberEmployee) {
+		this.factNumberEmployee = factNumberEmployee;
+		this.maxNumberOfPlace = maxNumberOfPlace;
 	}
 
 	public void compare() throws ExceededNumberOfEmployeeException {
-		if (factEmployee > countSize) {
-			throw new ExceededNumberOfEmployeeException("Превышено максимальное колличесвто сотрудников. Максимальное количество сотрудников:" + countSize);
+		if (factNumberEmployee > maxNumberOfPlace) {
+			throw new ExceededNumberOfEmployeeException("Превышено максимальное колличесвто сотрудников. Максимальное количество сотрудников:" + maxNumberOfPlace);
 		}
 	}
 
-	void registerSomeWorkers(Employee[] employees) {
-		for (int i = 0; i < employees.length; i++) {
-		}
+
+	public void registerWorker(Employee employee) {
+		if (listOfEmployee.contains(employee)) {
+			System.out.println("Пользователь уже зарегестрирован");
+		} else {
+			employee.getIdCard();
+			listOfEmployee.add(employee);
+			System.out.println("Новый пользователь зарегестирован");
+		};
+
 	}
 
-	void registerWorker(Employee employee) {
-
+	public void enterToOffice(Employee employee) {
+		for (Employee employee1 : listOfEmployee) {
+			if (employee1.getName().equals(employee.getName()) &&
+					employee1.getLastName().equals(employee.getLastName())) {
+				employee1.setStatus(Status.IN_OFFICE);
+				return;
+			}
+		}
 	}
 
 

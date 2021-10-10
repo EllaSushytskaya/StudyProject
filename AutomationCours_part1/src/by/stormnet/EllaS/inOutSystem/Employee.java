@@ -47,19 +47,23 @@ public abstract class Employee {
 		if (ob == null || getClass() != ob.getClass())
 			return false;
 		Employee employee = (Employee) ob;
-		return name == employee.name
-				|| (name != null && name.equals(employee.getName())) && (lastName == employee.lastName
-				|| (lastName != null && lastName.equals(employee.getLastName())
-		));
-
-
-
-
-
-
-
+		if (name.equals(employee.getName()) && lastName.equals(employee.getLastName())) {
+			return true;
+		}
+		return false;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

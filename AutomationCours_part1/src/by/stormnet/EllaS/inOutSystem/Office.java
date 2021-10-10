@@ -1,13 +1,15 @@
 package by.stormnet.EllaS.inOutSystem;
 
-public class Office <T>{
-	private T employee;
+import java.util.ArrayList;
 
-	Office (T employee){
+public class Office <T extends Employee> {
+	private ArrayList<T> employee;
+
+	public  void  Office (ArrayList<T> employee){
 		this.employee=employee;
 	}
-	public T enterToOffice (){
-		return employee;
-	}
+
+
+
 
 }
