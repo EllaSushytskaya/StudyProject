@@ -44,15 +44,7 @@ public class Journal {
 
 	}
 
-	public void enterToOffice(Employee employee) {
-		for (Employee employee1 : listOfEmployee) {
-			if (employee1.getName().equals(employee.getName()) &&
-					employee1.getLastName().equals(employee.getLastName())) {
-				employee1.setStatus(Status.IN_OFFICE);
-				return;
-			}
-		}
-	}
+
 
 
 }
