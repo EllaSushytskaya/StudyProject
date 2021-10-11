@@ -34,20 +34,23 @@ public class Journal {
 
 
 	public void registerEmployee(Employee employee) {
-		if (listOfEmployee.contains(employee)) {
-			System.out.println("Сотрудник уже зарегестрирован");
-		} else {
-			employee.getIdCard();
-			listOfEmployee.add(employee);
-			System.out.println("Новый сотрудник зарегестирован");
-		};
+		for (int i=0; i<listOfEmployee.size(); i++) {
+			if (listOfEmployee.contains(employee)) {
+				System.out.println("Сотрудник уже зарегестрирован");
+			} else {
+				employee.getIdCard();
+				listOfEmployee.add(employee);
+				System.out.println("Новый сотрудник зарегестирован");
+			}
+		}
 
 	}
-
-
-
-
 }
+
+
+
+
+
 
 
 

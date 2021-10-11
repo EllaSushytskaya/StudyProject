@@ -29,6 +29,8 @@ public class Office<T extends Employee> {
 			System.out.println("Новый пользователь зарегестирован");
 		}
 	}
+
+
 }
 
 
