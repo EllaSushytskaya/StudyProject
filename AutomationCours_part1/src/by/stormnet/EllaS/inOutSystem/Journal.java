@@ -33,13 +33,13 @@ public class Journal {
 	}
 
 
-	public void registerWorker(Employee employee) {
+	public void registerEmployee(Employee employee) {
 		if (listOfEmployee.contains(employee)) {
-			System.out.println("Пользователь уже зарегестрирован");
+			System.out.println("Сотрудник уже зарегестрирован");
 		} else {
 			employee.getIdCard();
 			listOfEmployee.add(employee);
-			System.out.println("Новый пользователь зарегестирован");
+			System.out.println("Новый сотрудник зарегестирован");
 		};
 
 	}
